@@ -5,12 +5,14 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 // 자바 객체를 DB가 이해할 수 있게 만든 것
 // JPA에서 제공
 
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 @Entity
 public class Article {
